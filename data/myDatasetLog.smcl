@@ -1,0 +1,473 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\HP\Documents\YRF Intro to Stata\Class 1 Intro to Stata\myDatasetLog.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}19 Aug 2024, 20:20:40
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. br
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. use "Dataset.dta", clear  
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. browse income age pizza
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. browse income age if age > 40
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. use "Dataset.dta", clear  
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. pwd
+{res}C:\Users\HP\Documents\YRF Intro to Stata\Class 1 Intro to Stata
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. // 2. Open data in Data Editor, user can make changes to data 
+. 
+. edit    
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. list
+{txt}
+     {c TLC}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c TRC}
+     {c |} {res}   ID   pizza   female   hs   college   grad   income   age {txt}{c |}
+     {c LT}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c RT}
+  1. {c |} {res} Jane     109        1    0         0      0    15000    25 {txt}{c |}
+  2. {c |} {res} Cate       0        1    0         0      0    30000    45 {txt}{c |}
+  3. {c |} {res}  Sue       0        1    0         0      0    12000    -1 {txt}{c |}
+  4. {c |} {res}  Bev     108        1    0         0      0    20000    28 {txt}{c |}
+  5. {c |} {res} Mich     220        1    1         0      0    15000    25 {txt}{c |}
+     {c LT}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c RT}
+  6. {c |} {res} Ella     189        1    1         0      0    30000    35 {txt}{c |}
+  7. {c |} {res} Joan      64        1    1         0      0    12000    40 {txt}{c |}
+  8. {c |} {res} Suki     262        1    1         0      0    12000    22 {txt}{c |}
+  9. {c |} {res}  Jen      64        1    1         0      0    28000    30 {txt}{c |}
+ 10. {c |} {res} Lila      35        1    1         0      0    22000    21 {txt}{c |}
+     {c LT}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c RT}
+ 11. {c |} {res}  Kit      94        1    1         0      0    44000    40 {txt}{c |}
+ 12. {c |} {res} Lara      71        1    0         1      0    10000    21 {txt}{c |}
+ 13. {c |} {res} Beth     403        1    0         1      0   222000    45 {txt}{c |}
+ 14. {c |} {res} Judy      41        1    0         1      0    32000    36 {txt}{c |}
+ 15. {c |} {res} Sue1      10        1    0         1      0    45000    36 {txt}{c |}
+     {c LT}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c RT}
+ 16. {c |} {res} Sue2     110        1    0         1      0    55000    40 {txt}{c |}
+ 17. {c |} {res} Teri     239        1    0         1      0    29000    23 {txt}{c |}
+ 18. {c |} {res} June      63        1    0         1      0    39000    -1 {txt}{c |}
+ 19. {c |} {res} Barb       0        1    0         1      0    70000    52 {txt}{c |}
+ 20. {c |} {res} Bula     106        1    0         0      1    55000    30 {txt}{c |}
+     {c LT}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c RT}
+ 21. {c |} {res} Lily       0        1    0         0      1    90000    45 {txt}{c |}
+ 22. {c |} {res}  Joe     141        0    0         0      0     6000    32 {txt}{c |}
+ 23. {c |} {res}  Jon     299        0    0         0      0    18000    20 {txt}{c |}
+ 24. {c |} {res} Joe2     148        0    0         0      0    55000    55 {txt}{c |}
+ 25. {c |} {res} John     424        0    1         0      0    10000    18 {txt}{c |}
+     {c LT}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c RT}
+ 26. {c |} {res}John2     242        0    1         0      0    23000    30 {txt}{c |}
+ 27. {c |} {res} Dave     119        0    1         0      0    35000    45 {txt}{c |}
+ 28. {c |} {res}Dave2     338        0    1         0      0    38000    40 {txt}{c |}
+ 29. {c |} {res} Bart     135        0    1         0      0    45000    50 {txt}{c |}
+ 30. {c |} {res}Bart2     590        0    1         0      0    85000    32 {txt}{c |}
+     {c LT}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c RT}
+ 31. {c |} {res}  Dan     324        0    1         0      0    22000    30 {txt}{c |}
+ 32. {c |} {res} Dan2      87        0    1         0      0    25000    51 {txt}{c |}
+ 33. {c |} {res} Mike     395        0    0         1      0    29000    22 {txt}{c |}
+ 34. {c |} {res}Mike2     513        0    0         1      0   132000    40 {txt}{c |}
+ 35. {c |} {res}  Bob      56        0    0         1      0    35000    -1 {txt}{c |}
+     {c LT}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c RT}
+ 36. {c |} {res} Bob2     400        0    0         1      0    80000    36 {txt}{c |}
+ 37. {c |} {res}  Lee     384        0    0         1      0    55000    27 {txt}{c |}
+ 38. {c |} {res} Jimi     262        0    0         1      0    30000    24 {txt}{c |}
+ 39. {c |} {res} Jake     336        0    0         1      0    27000    21 {txt}{c |}
+ 40. {c |} {res}  Rob     281        0    0         0      1    80000    45 {txt}{c |}
+     {c BLC}{hline 7}{c -}{hline 7}{c -}{hline 8}{c -}{hline 4}{c -}{hline 9}{c -}{hline 6}{c -}{hline 8}{c -}{hline 5}{c BRC}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. list income age if age > 40
+{txt}
+     {c TLC}{hline 8}{c -}{hline 5}{c TRC}
+     {c |} {res}income   age {txt}{c |}
+     {c LT}{hline 8}{c -}{hline 5}{c RT}
+  2. {c |} {res} 30000    45 {txt}{c |}
+ 13. {c |} {res}222000    45 {txt}{c |}
+ 19. {c |} {res} 70000    52 {txt}{c |}
+ 21. {c |} {res} 90000    45 {txt}{c |}
+ 24. {c |} {res} 55000    55 {txt}{c |}
+     {c LT}{hline 8}{c -}{hline 5}{c RT}
+ 27. {c |} {res} 35000    45 {txt}{c |}
+ 29. {c |} {res} 45000    50 {txt}{c |}
+ 32. {c |} {res} 25000    51 {txt}{c |}
+ 40. {c |} {res} 80000    45 {txt}{c |}
+     {c BLC}{hline 8}{c -}{hline 5}{c BRC}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. list age if ID == Jane
+{err}Jane not found
+{txt}{search r(111), local:r(111);}
+
+end of do-file
+
+{search r(111), local:r(111);}
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. list age if ID == "Jane"
+{txt}
+     {c TLC}{hline 5}{c TRC}
+     {c |} {res}age {txt}{c |}
+     {c LT}{hline 5}{c RT}
+  1. {c |} {res} 25 {txt}{c |}
+     {c BLC}{hline 5}{c BRC}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. describe 
+
+{txt}Contains data from {res}Dataset.dta
+{txt} Observations:{res}            40                  
+{txt}    Variables:{res}             8                  26 Oct 2015 12:18
+{txt}{hline}
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+{hline}
+{p 0 48}{res}{bind:ID             }{txt}{bind: str12   }{bind:%12s      }{space 1}{bind:         }{bind:  }{res}{res}{p_end}
+{p 0 48}{bind:pizza          }{txt}{bind: float   }{bind:%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}annual pizza expenditure, ${p_end}
+{p 0 48}{bind:female         }{txt}{bind: float   }{bind:%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}=1 if female{p_end}
+{p 0 48}{bind:hs             }{txt}{bind: float   }{bind:%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}=1 if highest degree received is high school diploma{p_end}
+{p 0 48}{bind:college        }{txt}{bind: float   }{bind:%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}=1 if highest degree received is a college diploma{p_end}
+{p 0 48}{bind:grad           }{txt}{bind: float   }{bind:%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}=1 if highest degree received is a post graduate degree{p_end}
+{p 0 48}{bind:income         }{txt}{bind: float   }{bind:%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}annual income, ${p_end}
+{p 0 48}{bind:age            }{txt}{bind: float   }{bind:%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}age in years{p_end}
+{txt}{hline}
+Sorted by: 
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. describe pizza
+
+{txt}Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+{hline}
+{p 0 48}{res}{bind:pizza          }{txt}{bind: float   }{bind:%9.0g     }{space 1}{bind:         }{bind:  }{res}{res}annual pizza expenditure, ${p_end}
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. codebook                        
+
+{txt}{hline}
+{res}ID{right:(unlabeled)}
+{txt}{hline}
+
+{col 19}Type: String ({res}str12{txt}), but longest is str5
+
+{col 10}Unique values: {res}40{col 51}{txt}Missing "": {res}0{txt}/{res}40
+
+{txt}{col 15}Examples: {res}"Bula"
+{col 25}"Jane"
+{col 25}"Jon"
+{col 25}"Mich"
+
+{txt}{hline}
+{res}pizza{right:annual pizza expenditure, $}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}590{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}35{col 51}{txt}Missing .: {res}0{txt}/{res}40
+
+{txt}{col 19}Mean: {res}{ralign 7:191.55}
+{txt}{col 14}Std. dev.: {res}{ralign 7:155.881}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:5}{ralign 10:      64}{ralign 10:     138}{ralign 10:   311.5}{ralign 10:   401.5}
+
+{txt}{hline}
+{res}female{right:=1 if female}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}40
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        19{col 32}0
+{col 20}        21{col 32}1
+
+{txt}{hline}
+{res}hs{right:=1 if highest degree received is high school diploma}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}40
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        25{col 32}0
+{col 20}        15{col 32}1
+
+{txt}{hline}
+{res}college{right:=1 if highest degree received is a college diploma}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}40
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        25{col 32}0
+{col 20}        15{col 32}1
+
+{txt}{hline}
+{res}grad{right:=1 if highest degree received is a post graduate degree}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}40
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        37{col 32}0
+{col 20}         3{col 32}1
+
+{txt}{hline}
+{res}income{right:annual income, $}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}6000{txt},{res}222000{txt}]{col 55}Units: {res}1000
+{col 10}{txt}Unique values: {res}26{col 51}{txt}Missing .: {res}0{txt}/{res}40
+
+{txt}{col 19}Mean: {res}{ralign 7:42925}
+{txt}{col 14}Std. dev.: {res}{ralign 7:39358.6}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:12000}{ralign 10:   21000}{ralign 10:   30000}{ralign 10:   55000}{ralign 10:   82500}
+
+{txt}{hline}
+{res}age{right:age in years}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}-1{txt},{res}55{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}20{col 51}{txt}Missing .: {res}0{txt}/{res}40
+
+{txt}{col 19}Mean: {res}{ralign 7:31.35}
+{txt}{col 14}Std. dev.: {res}{ralign 7:13.6711}
+
+{txt}{col 12}Percentiles: {col 25}{ralign 7:10%}{ralign 10:25%}{ralign 10:50%}{ralign 10:75%}{ralign 10:90%}
+{res}{col 25}{ralign 7:19}{ralign 10:    22.5}{ralign 10:      31}{ralign 10:      40}{ralign 10:    47.5}
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. codebook female
+
+{txt}{hline}
+{res}female{right:=1 if female}
+{txt}{hline}
+
+{col 19}Type: Numeric ({res}float{txt})
+
+{col 18}Range: [{res}0{txt},{res}1{txt}]{col 55}Units: {res}1
+{col 10}{txt}Unique values: {res}2{col 51}{txt}Missing .: {res}0{txt}/{res}40
+
+{txt}{col 13}Tabulation: Freq.  Value
+{col 20}{res}        19{col 32}0
+{col 20}        21{col 32}1
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. summarize                       
+
+{txt}    Variable {c |}        Obs        Mean    Std. dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 10}ID {c |}{res}          0
+{txt}{space 7}pizza {c |}{res}         40      191.55    155.8806          0        590
+{txt}{space 6}female {c |}{res}         40        .525    .5057363          0          1
+{txt}{space 10}hs {c |}{res}         40        .375    .4902903          0          1
+{txt}{space 5}college {c |}{res}         40        .375    .4902903          0          1
+{txt}{hline 13}{c +}{hline 57}
+{space 8}grad {c |}{res}         40        .075    .2667468          0          1
+{txt}{space 6}income {c |}{res}         40       42925    39358.57       6000     222000
+{txt}{space 9}age {c |}{res}         40       31.35    13.67114         -1         55
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. sum
+
+{txt}    Variable {c |}        Obs        Mean    Std. dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 10}ID {c |}{res}          0
+{txt}{space 7}pizza {c |}{res}         40      191.55    155.8806          0        590
+{txt}{space 6}female {c |}{res}         40        .525    .5057363          0          1
+{txt}{space 10}hs {c |}{res}         40        .375    .4902903          0          1
+{txt}{space 5}college {c |}{res}         40        .375    .4902903          0          1
+{txt}{hline 13}{c +}{hline 57}
+{space 8}grad {c |}{res}         40        .075    .2667468          0          1
+{txt}{space 6}income {c |}{res}         40       42925    39358.57       6000     222000
+{txt}{space 9}age {c |}{res}         40       31.35    13.67114         -1         55
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. sum
+
+{txt}    Variable {c |}        Obs        Mean    Std. dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 10}ID {c |}{res}          0
+{txt}{space 7}pizza {c |}{res}         40      191.55    155.8806          0        590
+{txt}{space 6}female {c |}{res}         40        .525    .5057363          0          1
+{txt}{space 10}hs {c |}{res}         40        .375    .4902903          0          1
+{txt}{space 5}college {c |}{res}         40        .375    .4902903          0          1
+{txt}{hline 13}{c +}{hline 57}
+{space 8}grad {c |}{res}         40        .075    .2667468          0          1
+{txt}{space 6}income {c |}{res}         40       42925    39358.57       6000     222000
+{txt}{space 9}age {c |}{res}         40       31.35    13.67114         -1         55
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. summarize income
+
+{txt}    Variable {c |}        Obs        Mean    Std. dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 6}income {c |}{res}         40       42925    39358.57       6000     222000
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. summarize income, detail
+
+                      {txt}annual income, $
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}     6000           6000
+{txt} 5%    {res}    10000          10000
+{txt}10%    {res}    12000          10000       {txt}Obs         {res}         40
+{txt}25%    {res}    21000          12000       {txt}Sum of wgt. {res}         40
+
+{txt}50%    {res}    30000                      {txt}Mean          {res}    42925
+                        {txt}Largest       Std. dev.     {res} 39358.57
+{txt}75%    {res}    55000          85000
+{txt}90%    {res}    82500          90000       {txt}Variance      {res} 1.55e+09
+{txt}95%    {res}   111000         132000       {txt}Skewness      {res} 2.735044
+{txt}99%    {res}   222000         222000       {txt}Kurtosis      {res} 12.20313
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. tabulate female         //obtain frequencies
+
+      {txt}=1 if {c |}
+     female {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         19       47.50       47.50
+{txt}          1 {c |}{res}         21       52.50      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         40      100.00
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. tab female
+
+      {txt}=1 if {c |}
+     female {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         19       47.50       47.50
+{txt}          1 {c |}{res}         21       52.50      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}         40      100.00
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\HP\AppData\Local\Temp\STD215c_000000.tmp"
+{txt}
+{com}. tabulate female hs      //crosstabs of frequences
+
+           {txt}{c |} =1 if highest degree
+           {c |}   received is high
+     =1 if {c |}    school diploma
+    female {c |}         0          1 {c |}     Total
+{hline 11}{c +}{hline 22}{c +}{hline 10}
+         0 {c |}{res}        11          8 {txt}{c |}{res}        19 
+{txt}         1 {c |}{res}        14          7 {txt}{c |}{res}        21 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+     Total {c |}{res}        25         15 {txt}{c |}{res}        40 
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. exit, clear
